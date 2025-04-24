@@ -5,7 +5,7 @@ class Rectangulo:
 
     @property
     def area(self): #propiedad que va calcular el area del rectangulo sin exponer la formula
-        return self.ancho * self._alto
+        return self._ancho * self._alto
 
     @property
     def perimetro(self): #calcular perimetro del rectangulo
